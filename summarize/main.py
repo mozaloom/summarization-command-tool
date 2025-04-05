@@ -34,7 +34,7 @@ def main(url, file):
     if url:
         text = extract_from_url(url)
     elif file:
-        with open(file, 'r') as f:
+        with open(file, 'r', encoding='utf-8') as f:
             text = f.read()
     else:
         click.echo("Please provide either a URL or a file path.")

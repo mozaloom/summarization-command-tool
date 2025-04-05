@@ -1,0 +1,11 @@
+beautifulsoup4
+bs4
+click
+tokenizers
+torch
+torchaudio
+torchvision
+transformers
+pytest
+black
+pylint
