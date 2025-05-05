@@ -1,2 +1,0 @@
-[console_scripts]
-summarize = summarize.main:main

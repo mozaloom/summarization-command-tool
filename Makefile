@@ -8,4 +8,7 @@ lint:
 format:
 	black *.py
 
+build:
+	python setup.py develop
+
 all: install lint format
